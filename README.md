@@ -66,7 +66,7 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
    * ("what text?" was not my idea; you can't change the prompt; smh)
 3. Say the (mostly) complete address or location name without any long pauses
 4. You'll be presented with a list of results, and Siri will begin to read them. You can respond verbally or tap one of the results (even with CarPlay 🚗). Select one of the results or tap/say cancel to cancel.
-5. The default map app you specified during setup will open with directions to the destination will open, and you'll see a notification that navigation was set on your Comma device.
+5. The default map app you specified during setup will open with directions to the destination, and you'll see a notification that navigation was set on your Comma device.
 
 ## Go home
 
