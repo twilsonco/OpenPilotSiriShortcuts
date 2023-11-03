@@ -71,7 +71,7 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
 ## Go home
 
 * This simple shortcut lets you save one address
-* When run, it passes this the location to the *Navigate with OpenPilot* Shortcut
+* When run, it passes this location to the *Navigate with OpenPilot* Shortcut
 
 ## Go to work
 
