@@ -2,7 +2,7 @@
 
 ![banner](img/banner.png)
 
-A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navigation](https://blog.comma.ai/094release/#navigate-on-openpilot)🔗 destination from your iPhone, handsfree or not.  The Comma Connect API can be used to easily set the navigation destination on your Comma device. Here are Siri Shortcuts that provide the following functions for iPhone, iPad, and Mac users.
+A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navigation](https://blog.comma.ai/094release/#navigate-on-openpilot)🔗 destination from your iPhone, hands-free or not.  The Comma Connect API can be used to easily set the navigation destination on your Comma device. Here are Siri Shortcuts that provide the following functions for iPhone, iPad, and Mac users.
 
 1. **Navigate with OpenPilot: Set OpenPilot navigation destination from a specified location/pin in Apple Maps, Google Maps, or Waze** using the [share sheet](https://www.idownloadblog.com/2020/04/21/customize-share-sheet-iphone-ipad/)🔗
 2. **OpenPilot Search: Search for and select destinations**
@@ -27,6 +27,7 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
    3. [OpenPilot go home](https://www.icloud.com/shortcuts/eb71d11e40ad48418a2368c3c008b177)🔗 `set home address`
    4. [OpenPilot go to work](https://www.icloud.com/shortcuts/c0e5bb63cb0549898617b268b96398c8)🔗 `set work address`
    5. [OpenPilot go to favorite](https://www.icloud.com/shortcuts/4c3e76a71f3a48d7bad06392f7093838)🔗 `set one or more favorite places`
+4. Run shortcuts ii though v immediately to acquire permissions and enable hands-free use
 
 ## Navigate with OpenPilot
 
