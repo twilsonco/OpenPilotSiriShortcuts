@@ -22,11 +22,11 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
 3. Download and install the OpenPilot Siri Shortcuts by tapping the following links on your iPhone, iPad, or Mac
    * Complete the setup process for each shortcut (except *search* which has none). The data you'll provide is described after each install link
    * On first run, you'll be prompted to give permission for the shortcuts to do things
-   1. [Navigate on OpenPilot](https://www.icloud.com/shortcuts/829da9b85aa747008141b46a621d31f3)🔗 `JWT token` `dongle id` `set multi-device behavior` `set default map app`
-   2. [OpenPilot search](https://www.icloud.com/shortcuts/02a17a5dcd74471a95f5ae7b179ef5aa)🔗
-   3. [OpenPilot go home](https://www.icloud.com/shortcuts/eb71d11e40ad48418a2368c3c008b177)🔗 `set home address`
-   4. [OpenPilot go to work](https://www.icloud.com/shortcuts/c0e5bb63cb0549898617b268b96398c8)🔗 `set work address`
-   5. [OpenPilot go to favorite](https://www.icloud.com/shortcuts/4c3e76a71f3a48d7bad06392f7093838)🔗 `set one or more favorite places`
+   1. [Navigate on OpenPilot](https://www.icloud.com/shortcuts/b04fff94ddbb4821b73e856df6ac0f2e)🔗 `JWT token` `dongle id` `set multi-device behavior` `set default map app`
+   2. [OpenPilot search](https://www.icloud.com/shortcuts/5a40906f54854190aaa1d710058096c9)🔗
+   3. [OpenPilot go home](https://www.icloud.com/shortcuts/707d822051884754b80859da8da4b0dc)🔗 `set home address`
+   4. [OpenPilot go to work](https://www.icloud.com/shortcuts/547d4297c8c54fcab03a47bf3d91386a)🔗 `set work address`
+   5. [OpenPilot go to favorite](https://www.icloud.com/shortcuts/f6dd012dbb31405fbf5815f3891d5bbd)🔗 `set one or more favorite places`
 4. Run shortcuts ii though v immediately to acquire permissions and enable hands-free use
 * **If Siri will not recognize the word "OpenPilot" when you speak, you can "teach" it the word by [adding a new contact called OpenPilot, and by specifying a phonetic name for it](https://www.tapsmart.com/tips-and-tricks/youre-saying-wrong-teach-siri-new-words-pronunciations/)**
 
