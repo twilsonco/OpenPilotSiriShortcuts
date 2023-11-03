@@ -28,6 +28,7 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
    4. [OpenPilot go to work](https://www.icloud.com/shortcuts/c0e5bb63cb0549898617b268b96398c8)🔗 `set work address`
    5. [OpenPilot go to favorite](https://www.icloud.com/shortcuts/4c3e76a71f3a48d7bad06392f7093838)🔗 `set one or more favorite places`
 4. Run shortcuts ii though v immediately to acquire permissions and enable hands-free use
+* **If Siri will not recognize the word "OpenPilot" when you speak, you can "teach" it the word by [adding a new contact called OpenPilot, and by specifying a phonetic name for it](https://www.tapsmart.com/tips-and-tricks/youre-saying-wrong-teach-siri-new-words-pronunciations/)**
 
 ## Navigate with OpenPilot
 
