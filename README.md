@@ -23,7 +23,7 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
    * Complete the setup process for each shortcut (except *search* which has none). The data you'll provide is described after each install link
    * On first run, you'll be prompted to give permission for the shortcuts to do things
    1. [Navigate on OpenPilot](https://www.icloud.com/shortcuts/b04fff94ddbb4821b73e856df6ac0f2e)🔗 `JWT token` `dongle id` `set multi-device behavior` `set default map app`
-   2. [OpenPilot search](https://www.icloud.com/shortcuts/5a40906f54854190aaa1d710058096c9)🔗
+   2. [OpenPilot search](https://www.icloud.com/shortcuts/fd90e8ecd52549d7bfaf8f2e816e83f5)🔗
    3. [OpenPilot go home](https://www.icloud.com/shortcuts/707d822051884754b80859da8da4b0dc)🔗 `set home address`
    4. [OpenPilot go to work](https://www.icloud.com/shortcuts/547d4297c8c54fcab03a47bf3d91386a)🔗 `set work address`
    5. [OpenPilot go to favorite](https://www.icloud.com/shortcuts/f6dd012dbb31405fbf5815f3891d5bbd)🔗 `set one or more favorite places`
