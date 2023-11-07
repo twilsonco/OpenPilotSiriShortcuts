@@ -22,11 +22,11 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
 3. Download and install the OpenPilot Siri Shortcuts by tapping the following links on your iPhone, iPad, or Mac
    * Complete the setup process for each shortcut (except *search* which has none). The data you'll provide is described after each install link
    * On first run, you'll be prompted to give permission for the shortcuts to do things
-   1. [Navigate on OpenPilot](https://www.icloud.com/shortcuts/b04fff94ddbb4821b73e856df6ac0f2e)🔗 `JWT token` `dongle id` `set multi-device behavior` `set default map app`
-   2. [OpenPilot search](https://www.icloud.com/shortcuts/fd90e8ecd52549d7bfaf8f2e816e83f5)🔗
-   3. [OpenPilot go home](https://www.icloud.com/shortcuts/707d822051884754b80859da8da4b0dc)🔗 `set home address`
-   4. [OpenPilot go to work](https://www.icloud.com/shortcuts/547d4297c8c54fcab03a47bf3d91386a)🔗 `set work address`
-   5. [OpenPilot go to favorite](https://www.icloud.com/shortcuts/f6dd012dbb31405fbf5815f3891d5bbd)🔗 `set one or more favorite places`
+   1. [Navigate on OpenPilot](https://www.icloud.com/shortcuts/c74d02d95ffe44f8881c1e01f094e3cd)🔗 `JWT token` `dongle id` `set multi-device behavior` `set default map app`
+   2. [OpenPilot search](https://www.icloud.com/shortcuts/580c0ec4e8bd465cba4e2bb0e789ed4d)🔗
+   3. [OpenPilot go home](https://www.icloud.com/shortcuts/d8af0b1046334311bcc20bee9769f081)🔗 `set home address`
+   4. [OpenPilot go to work](https://www.icloud.com/shortcuts/e492a90d78794dcc95197d486f542ecf)🔗 `set work address`
+   5. [OpenPilot go to favorite](https://www.icloud.com/shortcuts/e4bae1d4d559472f835152228ff57558)🔗 `set one or more favorite places`
 4. Run shortcuts ii though v immediately to acquire permissions and enable hands-free use
 * **If Siri will not recognize the word "OpenPilot" when you speak, you can "teach" it the word by [adding a new contact called OpenPilot, and by specifying a phonetic name for it](https://www.tapsmart.com/tips-and-tricks/youre-saying-wrong-teach-siri-new-words-pronunciations/)**
 
@@ -72,11 +72,13 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
 
 * This simple shortcut lets you save one address
 * When run, it passes this location to the *Navigate with OpenPilot* Shortcut
+* Does not need to match the "home" address saved on Comma Connect
 
 ## Go to work
 
 * Same Shortcut (as "Go home"), Different Destination
 * You see how these could be replicated to add more
+* Does not need to match the "work" address saved on Comma Connect
 
 ## Go to favorite
 
