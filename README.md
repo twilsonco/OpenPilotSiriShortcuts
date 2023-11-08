@@ -12,8 +12,8 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
    * by saying "*(Hey) Siri, OpenPilot go to work*" or
    * by saying "*(Hey) Siri, OpenPilot go home*", or
    * by tapping the shortcut/widget/home screen icon
-4. **Go to favorite**
-   * by saying "*(Hey) Siri, OpenPilot go to favorite*", then selecting a favorite from the list by voice or by tapping
+4. **Go to favorite** by saying "*(Hey) Siri, OpenPilot go to favorite*", then selecting a favorite from the list by voice or by tapping
+5. **Go to recent** by saying "*(Hey) Siri, OpenPilot go to recent*", then selecting one of the recent locations in the list
 
 ## Installation
 
@@ -22,12 +22,14 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
 3. Download and install the OpenPilot Siri Shortcuts by tapping the following links on your iPhone, iPad, or Mac
    * Complete the setup process for each shortcut (except *search* which has none). The data you'll provide is described after each install link
    * On first run, you'll be prompted to give permission for the shortcuts to do things
-   1. [Navigate on OpenPilot](https://www.icloud.com/shortcuts/c74d02d95ffe44f8881c1e01f094e3cd)🔗 `JWT token` `dongle id` `set multi-device behavior` `set default map app`
+   1. [Navigate on OpenPilot](https://www.icloud.com/shortcuts/29cb67a59bf24ca8aba0157c42fa1492)🔗 `JWT token` `dongle id` `set multi-device behavior` `set default map app` `set number of recent locations to show`
    2. [OpenPilot search](https://www.icloud.com/shortcuts/580c0ec4e8bd465cba4e2bb0e789ed4d)🔗
    3. [OpenPilot go home](https://www.icloud.com/shortcuts/d8af0b1046334311bcc20bee9769f081)🔗 `set home address`
    4. [OpenPilot go to work](https://www.icloud.com/shortcuts/e492a90d78794dcc95197d486f542ecf)🔗 `set work address`
-   5. [OpenPilot go to favorite](https://www.icloud.com/shortcuts/e4bae1d4d559472f835152228ff57558)🔗 `set one or more favorite places`
+   5. [OpenPilot go to favorite](https://www.icloud.com/shortcuts/1a8a7f4e49db4ae594ac145850abae25)🔗 `set one or more favorite places`
+   6. [OpenPilot go to recent](https://www.icloud.com/shortcuts/6ad037f369d747e9b4bd59da4645802d)🔗
 4. Run shortcuts ii though v immediately to acquire permissions and enable hands-free use
+
 * **If Siri will not recognize the word "OpenPilot" when you speak, you can "teach" it the word by [adding a new contact called OpenPilot, and by specifying a phonetic name for it](https://www.tapsmart.com/tips-and-tricks/youre-saying-wrong-teach-siri-new-words-pronunciations/)**
 
 ## Navigate with OpenPilot
@@ -86,3 +88,9 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
 * When run, you can select one of the favorites from the list, verbally or by tapping (even in CarPlay 🚗)
 * There is no set format to use for the specified locations
 * The specified locations are used to search, and the top result is used. They need to be complete enough that the desired place will be the top result
+
+## Go to recent
+
+* Similar to *Go to favorites*, but you'll choose from a list of recent locations
+* This shortcut just calls *Navigate with OpenPilot* without proving a location, causing it to run in recent location mode
+* *Inspired by BitNotFound#5466 on Discord*
