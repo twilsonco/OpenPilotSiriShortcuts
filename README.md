@@ -92,5 +92,5 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
 ## Go to recent
 
 * Similar to *Go to favorites*, but you'll choose from a list of recent locations
-* This shortcut just calls *Navigate with OpenPilot* without proving a location, causing it to run in recent location mode
+* This shortcut just calls *Navigate with OpenPilot* without providing a location, causing it to run in recent location mode
 * *Inspired by BitNotFound#5466 on Discord*
