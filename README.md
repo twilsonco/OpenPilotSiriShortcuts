@@ -14,6 +14,7 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
    * by tapping the shortcut/widget/home screen icon
 4. **Go to favorite** by saying "*(Hey) Siri, OpenPilot go to favorite*", then selecting a favorite from the list by voice or by tapping
 5. **Go to recent** by saying "*(Hey) Siri, OpenPilot go to recent*", then selecting one of the recent locations in the list
+6. **Go to next event** by saying "*(Hey) Siri, OpenPilot go to next event*", then *perhaps* selecting one of the recent locations in the list
 
 ## Installation
 
@@ -28,7 +29,8 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
    4. [OpenPilot go to work](https://www.icloud.com/shortcuts/e492a90d78794dcc95197d486f542ecf)🔗 `set work address`
    5. [OpenPilot go to favorite](https://www.icloud.com/shortcuts/1a8a7f4e49db4ae594ac145850abae25)🔗 `set one or more favorite places`
    6. [OpenPilot go to recent](https://www.icloud.com/shortcuts/6ad037f369d747e9b4bd59da4645802d)🔗
-4. Run shortcuts ii though v immediately to acquire permissions and enable hands-free use
+   7. [OpenPilot go to next event](https://www.icloud.com/shortcuts/d702a1a0245d45c186d569b341b54606)🔗
+4. Run all shortcuts immediately to acquire permissions and enable hands-free use on subsequent runs
 
 * **If Siri will not recognize the word "OpenPilot" when you speak, you can "teach" it the word by [adding a new contact called OpenPilot, and by specifying a phonetic name for it](https://www.tapsmart.com/tips-and-tricks/youre-saying-wrong-teach-siri-new-words-pronunciations/)**
 
@@ -94,3 +96,7 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
 * Similar to *Go to favorites*, but you'll choose from a list of recent locations
 * This shortcut just calls *Navigate with OpenPilot* without providing a location, causing it to run in recent location mode
 * *Inspired by BitNotFound#5466 on Discord*
+
+## Go to next event
+
+* This shortcut fetches your next calendar event that has a location specified, and sets OpenPilot and phone navigation to its location
