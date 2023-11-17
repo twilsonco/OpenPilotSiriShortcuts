@@ -1,10 +1,20 @@
-# [OpenPilot](https://www.comma.ai)🔗 [Siri Shortcuts](https://support.apple.com/en-gb/guide/shortcuts/welcome/ios)🔗
+# [OpenPilot](https://www.comma.ai) 🔗 [Siri Shortcuts](https://support.apple.com/en-gb/guide/shortcuts/welcome/ios) 🔗
 
 ![banner](img/banner.png)
 
-A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navigation](https://blog.comma.ai/094release/#navigate-on-openpilot)🔗 destination from your iPhone, hands-free or not.  The Comma Connect API can be used to easily set the navigation destination on your Comma device. Here are Siri Shortcuts that provide the following functions for iPhone, iPad, and Mac users.
+A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navigation](https://blog.comma.ai/094release/#navigate-on-openpilot) 🔗 destination from your iPhone, hands-free or not.
 
-1. **Navigate with OpenPilot: Set OpenPilot navigation destination from a specified location/pin in Apple Maps, Google Maps, or Waze** using the [share sheet](https://www.idownloadblog.com/2020/04/21/customize-share-sheet-iphone-ipad/)🔗
+* **Users with Comma Prime subscriptions:** The Comma Connect API can be used to easily set the navigation destination on your Comma device
+* **Users without Comma Prime subscriptions:** these shortcuts can still be used by making the API calls directly to your Comma device's IP address using
+  * An external data hotspot that supports local networking, or 
+  * The Comma device's own hotspot, where you have your own sim card for data
+  * The OpenPilot code must be changed to enable this: 
+    * [This commit on GitHub](https://github.com/mike86437/openpilot/commit/5e60e626e25d5620fb157f88ff727ffa9dc4e838) 🔗 for the changes necessary to use navigation without a Comma Prime subscription, and
+    * [This commit](https://github.com/mike86437/openpilot/commit/c17c63ca1b4c28379c0e0ba8b0357df5423a35b5) 🔗 for the followup changes to enable use of these shortcuts
+
+Here are Siri Shortcuts that provide the following functions for iPhone, iPad, and Mac users.
+
+1. **Navigate with OpenPilot: Set OpenPilot navigation destination from a specified location/pin in Apple Maps, Google Maps, or Waze** using the [share sheet](https://www.idownloadblog.com/2020/04/21/customize-share-sheet-iphone-ipad/) 🔗
 2. **OpenPilot Search: Search for and select destinations**
    * by saying "*(Hey) Siri, OpenPilot search*" or
    * by tapping the shortcut/widget/home screen icon followed by your destination (after the prompt)
@@ -18,25 +28,25 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
 
 ## Installation
 
-1. Acquire a [JWT authentication](https://api.comma.ai/#authentication)🔗 token at [jwt.comma.ai](https://jwt.comma.ai)🔗, where you'll login using the same method you use at Comma Connect
-2. Go to [Comma Connect](https://connect.comma.ai)🔗 or [UserAdmin](https://useradmin.comma.ai)🔗 to get your Comma device dongle id (16 hex characters)
+1. Acquire a [JWT authentication](https://api.comma.ai/#authentication) 🔗 token at [jwt.comma.ai](https://jwt.comma.ai) 🔗, where you'll login using the same method you use at Comma Connect
+2. Go to [Comma Connect](https://connect.comma.ai) 🔗 or [UserAdmin](https://useradmin.comma.ai) 🔗 to get your Comma device dongle id (16 hex characters)
 3. Download and install the OpenPilot Siri Shortcuts by tapping the following links on your iPhone, iPad, or Mac
    * Complete the setup process for each shortcut (except *search* which has none). The data you'll provide is described after each install link
    * On first run, you'll be prompted to give permission for the shortcuts to do things
-   1. [Navigate on OpenPilot](https://www.icloud.com/shortcuts/8cabb0bdae214e4fb5df14251b12caee)🔗 `JWT token` `dongle id` `set multi-device behavior` `set default map app` `set number of recent locations to show`
-   2. [OpenPilot search](https://www.icloud.com/shortcuts/580c0ec4e8bd465cba4e2bb0e789ed4d)🔗
-   3. [OpenPilot go home](https://www.icloud.com/shortcuts/d8af0b1046334311bcc20bee9769f081)🔗 `set home address`
-   4. [OpenPilot go to work](https://www.icloud.com/shortcuts/e492a90d78794dcc95197d486f542ecf)🔗 `set work address`
-   5. [OpenPilot go to favorite](https://www.icloud.com/shortcuts/1a8a7f4e49db4ae594ac145850abae25)🔗 `set one or more favorite places`
-   6. [OpenPilot go to recent](https://www.icloud.com/shortcuts/6ad037f369d747e9b4bd59da4645802d)🔗
-   7. [OpenPilot go to next event](https://www.icloud.com/shortcuts/d702a1a0245d45c186d569b341b54606)🔗
+   1. [Navigate on OpenPilot](https://www.icloud.com/shortcuts/233f0f9182af4f97aebea66305be629c) 🔗 `JWT token` `dongle id` `set multi-device behavior` `set default map app` `set number of recent locations to show`
+   2. [OpenPilot search](https://www.icloud.com/shortcuts/580c0ec4e8bd465cba4e2bb0e789ed4d) 🔗
+   3. [OpenPilot go home](https://www.icloud.com/shortcuts/d8af0b1046334311bcc20bee9769f081) 🔗 `set home address`
+   4. [OpenPilot go to work](https://www.icloud.com/shortcuts/e492a90d78794dcc95197d486f542ecf) 🔗 `set work address`
+   5. [OpenPilot go to favorite](https://www.icloud.com/shortcuts/1a8a7f4e49db4ae594ac145850abae25) 🔗 `set one or more favorite places`
+   6. [OpenPilot go to recent](https://www.icloud.com/shortcuts/6ad037f369d747e9b4bd59da4645802d) 🔗
+   7. [OpenPilot go to next event](https://www.icloud.com/shortcuts/d702a1a0245d45c186d569b341b54606) 🔗
 4. Run all shortcuts immediately to acquire permissions and enable hands-free use on subsequent runs
 
 * **If Siri will not recognize the word "OpenPilot" when you speak, you can "teach" it the word by [adding a new contact called OpenPilot, and by specifying a phonetic name for it](https://www.tapsmart.com/tips-and-tricks/youre-saying-wrong-teach-siri-new-words-pronunciations/)**
 
 ## Navigate with OpenPilot
 
-* This is the main shortcut that actually performs [the API call](https://api.comma.ai/#set-destination)🔗. This shortcut works in two ways, via the ["Share Sheet"](https://www.idownloadblog.com/2020/04/21/customize-share-sheet-iphone-ipad/)🔗 and by being called by other shortcuts, providing a valid location as input.
+* This is the main shortcut that actually performs [the API call](https://api.comma.ai/#set-destination) 🔗. This shortcut works in two ways, via the ["Share Sheet"](https://www.idownloadblog.com/2020/04/21/customize-share-sheet-iphone-ipad/) 🔗 and by being called by other shortcuts, providing a valid location as input.
 * To use with **Apple Maps** (see images):
   1. Tap the share button for a selected location/pin in Apple Maps
   2. Select "Navigate with OpenPilot" from the list of share actions
@@ -63,8 +73,8 @@ A set of iOS (and macOS) Shortcuts that let you quickly set the [OpenPilot navig
 1. Four ways to use:
    1. Say "(Hey) Siri, OpenPilot search" , or
       * (becuase "OpenPilot search" is the name of the Shortcut, and every shortcut is callable by name automatically)
-   2. [Save the shortcut to a home/lock screen widget](https://support.apple.com/guide/shortcuts/run-shortcuts-from-the-home-screen-widget-apd029b36d05/ios)🔗, or
-   3. [Save the shortcut as a home screen icon](https://support.apple.com/guide/shortcuts/add-a-shortcut-to-the-home-screen-apd735880972/ios#:~:text=In%20the%20Shortcuts%20app%20on,Tap%20Add%20to%20Home%20Screen.)🔗, or
+   2. [Save the shortcut to a home/lock screen widget](https://support.apple.com/guide/shortcuts/run-shortcuts-from-the-home-screen-widget-apd029b36d05/ios) 🔗, or
+   3. [Save the shortcut as a home screen icon](https://support.apple.com/guide/shortcuts/add-a-shortcut-to-the-home-screen-apd735880972/ios#:~:text=In%20the%20Shortcuts%20app%20on,Tap%20Add%20to%20Home%20Screen.) 🔗, or
    4. Tap the Shortcut in the Shortcuts app.
 2. Wait for the prompt "what text?"
    * ("what text?" was not my idea; you can't change the prompt; smh)
