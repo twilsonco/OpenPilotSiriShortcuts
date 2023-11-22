@@ -33,13 +33,13 @@ Here are Siri Shortcuts that provide the following functions for iPhone, iPad, a
 3. Download and install the OpenPilot Siri Shortcuts by tapping the following links on your iPhone, iPad, or Mac
    * Complete the setup process for each shortcut (except *search* which has none). The data you'll provide is described after each install link
    * On first run, you'll be prompted to give permission for the shortcuts to do things
-   1. [Navigate on OpenPilot](https://www.icloud.com/shortcuts/0b9598ca65824fb98ce85cf31922366f) 🔗 `JWT token` `dongle id` `set multi-device behavior` `set default map app` `set number of recent locations to show`
-   2. [OpenPilot search](https://www.icloud.com/shortcuts/580c0ec4e8bd465cba4e2bb0e789ed4d) 🔗
-   3. [OpenPilot go home](https://www.icloud.com/shortcuts/d8af0b1046334311bcc20bee9769f081) 🔗 `set home address`
-   4. [OpenPilot go to work](https://www.icloud.com/shortcuts/e492a90d78794dcc95197d486f542ecf) 🔗 `set work address`
-   5. [OpenPilot go to favorite](https://www.icloud.com/shortcuts/1a8a7f4e49db4ae594ac145850abae25) 🔗 `set one or more favorite places`
-   6. [OpenPilot go to recent](https://www.icloud.com/shortcuts/6ad037f369d747e9b4bd59da4645802d) 🔗
-   7. [OpenPilot go to next event](https://www.icloud.com/shortcuts/d702a1a0245d45c186d569b341b54606) 🔗
+   1. [Navigate with OpenPilot](https://www.icloud.com/shortcuts/13b91d6db0fe46d8add7818940c04ed1) 🔗 `JWT token` `dongle id` `set multi-device behavior` `set default map app` `set number of recent locations to show`
+   2. [OpenPilot search](https://www.icloud.com/shortcuts/395d4d5d67ff4142b250ff83e8b834b3) 🔗
+   3. [OpenPilot go home](https://www.icloud.com/shortcuts/637d524c86a044679730dfbbaca59482) 🔗 `set home address`
+   4. [OpenPilot go to work](https://www.icloud.com/shortcuts/decb8adba19f4c6499fdce55387993de) 🔗 `set work address`
+   5. [OpenPilot go to favorite](https://www.icloud.com/shortcuts/f7cd5a1c40f146b687e3d41b14ff57f2) 🔗 `set one or more favorite places`
+   6. [OpenPilot go to recent](https://www.icloud.com/shortcuts/f0a2fec191254945955267e9d823d035) 🔗
+   7. [OpenPilot go to next event](https://www.icloud.com/shortcuts/d2d6dae880974cd7832a5913e663b876) 🔗
 4. Run all shortcuts immediately to acquire permissions and enable hands-free use on subsequent runs
 
 * **If Siri will not recognize the word "OpenPilot" when you speak, you can "teach" it the word by [adding a new contact called OpenPilot, and by specifying a phonetic name for it](https://www.tapsmart.com/tips-and-tricks/youre-saying-wrong-teach-siri-new-words-pronunciations/)**
