@@ -33,7 +33,7 @@ Here are Siri Shortcuts that provide the following functions for iPhone, iPad, a
 3. Download and install the OpenPilot Siri Shortcuts by tapping the following links on your iPhone, iPad, or Mac
    * Complete the setup process for each shortcut (except *search* which has none). The data you'll provide is described after each install link
    * On first run, you'll be prompted to give permission for the shortcuts to do things
-   1. [Navigate with OpenPilot](https://www.icloud.com/shortcuts/13b91d6db0fe46d8add7818940c04ed1) 🔗 `JWT token` `dongle id` `set multi-device behavior` `set default map app` `set number of recent locations to show`
+   1. [Navigate with OpenPilot](https://www.icloud.com/shortcuts/a7d3647edafe4dc290f71ab24d85f0ab) 🔗 `JWT token` `dongle id` `set multi-device behavior` `set default map app` `set number of recent locations to show`
    2. [OpenPilot search](https://www.icloud.com/shortcuts/395d4d5d67ff4142b250ff83e8b834b3) 🔗
    3. [OpenPilot go home](https://www.icloud.com/shortcuts/637d524c86a044679730dfbbaca59482) 🔗 `set home address`
    4. [OpenPilot go to work](https://www.icloud.com/shortcuts/decb8adba19f4c6499fdce55387993de) 🔗 `set work address`
