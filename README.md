@@ -33,13 +33,13 @@ Here are Siri Shortcuts that provide the following functions for iPhone, iPad, a
 3. Download and install the OpenPilot Siri Shortcuts by tapping the following links on your iPhone, iPad, or Mac
    * Complete the setup process for each shortcut (except *search* which has none). The data you'll provide is described after each install link
    * On first run, you'll be prompted to give permission for the shortcuts to do things
-   1. [Navigate with OpenPilot](https://www.icloud.com/shortcuts/b5f0aa126f45423cbbf2c20cc55ff09f) 🔗 `JWT token` `dongle id` `set multi-device behavior` `set default map app` `set number of recent locations to show`
-   2. [OpenPilot search](https://www.icloud.com/shortcuts/395d4d5d67ff4142b250ff83e8b834b3) 🔗
-   3. [OpenPilot go home](https://www.icloud.com/shortcuts/637d524c86a044679730dfbbaca59482) 🔗 `set home address`
-   4. [OpenPilot go to work](https://www.icloud.com/shortcuts/decb8adba19f4c6499fdce55387993de) 🔗 `set work address`
-   5. [OpenPilot go to favorite](https://www.icloud.com/shortcuts/f7cd5a1c40f146b687e3d41b14ff57f2) 🔗 `set one or more favorite places`
-   6. [OpenPilot go to recent](https://www.icloud.com/shortcuts/f0a2fec191254945955267e9d823d035) 🔗
-   7. [OpenPilot go to next event](https://www.icloud.com/shortcuts/d2d6dae880974cd7832a5913e663b876) 🔗
+   1. [Navigate with OpenPilot](https://routinehub.co/shortcut/17677/) 🔗 `JWT token` `dongle id` `set multi-device behavior` `set default map app` `set number of recent locations to show`
+   2. [OpenPilot search](https://routinehub.co/shortcut/17678/) 🔗
+   3. [OpenPilot go home](https://routinehub.co/shortcut/17679/) 🔗 `set home address`
+   4. [OpenPilot go to work](https://routinehub.co/shortcut/17680/) 🔗 `set work address`
+   5. [OpenPilot go to favorite](https://routinehub.co/shortcut/17682/) 🔗 `set one or more favorite places`
+   6. [OpenPilot go to recent](https://routinehub.co/shortcut/17681/) 🔗
+   7. [OpenPilot go to next event](https://routinehub.co/shortcut/17683/) 🔗
 4. Run all shortcuts immediately to acquire permissions and enable hands-free use on subsequent runs
 
 * **If Siri will not recognize the word "OpenPilot" when you speak, you can "teach" it the word by [adding a new contact called OpenPilot, and by specifying a phonetic name for it](https://www.tapsmart.com/tips-and-tricks/youre-saying-wrong-teach-siri-new-words-pronunciations/)**
