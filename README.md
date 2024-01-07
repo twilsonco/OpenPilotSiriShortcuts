@@ -41,6 +41,7 @@ Here are Siri Shortcuts that provide the following functions for iPhone, iPad, a
    6. [OpenPilot go to recent](https://routinehub.co/shortcut/17681/) 🔗
    7. [OpenPilot go to next event](https://routinehub.co/shortcut/17683/) 🔗
 4. Run all shortcuts immediately to acquire permissions and enable hands-free use on subsequent runs
+5. The shortcuts will check for updates when you use them, and you'll be prompted to update if newer versions are available.
 
 * **If Siri will not recognize the word "OpenPilot" when you speak, you can "teach" it the word by [adding a new contact called OpenPilot, and by specifying a phonetic name for it](https://www.tapsmart.com/tips-and-tricks/youre-saying-wrong-teach-siri-new-words-pronunciations/)**
 
